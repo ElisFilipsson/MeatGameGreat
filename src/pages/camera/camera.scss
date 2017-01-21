@@ -1,0 +1,33 @@
+page-camera {
+    .camera{
+        background-image:url(../assets/images/bg.jpg);
+        background-size: cover;
+    }
+    #aim {
+        position: absolute;
+        bottom: calc(50% - 150px);
+        left: calc(50% - 154px);
+        width: 308px;
+        height: 308px;
+        background-image: url(../assets/images/aim.png);
+    }
+    #aim-text {
+        background-color: $third;
+        padding: 5px;
+        border-radius: 5px;
+        border:1px solid $dark;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: absolute;
+        bottom: calc(50% - 250px);
+        left: calc(50% - 75px);
+        width: 150px;
+        height: 50px;
+        font-size: 2.2em;
+        text-align: center;
+        color: $light;
+        &:active {
+            color: $dark;
+        }
+    }
+ 
+}

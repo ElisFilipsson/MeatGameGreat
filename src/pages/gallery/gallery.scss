@@ -1,0 +1,24 @@
+page-gallery {
+    .gallery{
+        background-color: $light;     
+    }
+    .container {
+        flex-flow:row wrap;
+    }
+    .insta-img {
+        border: 2px solid $light;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: calc(width);
+        max-height: calc(width);
+
+        img {
+            margin: 0px;
+            margin-bottom: -5px;
+            object-fit: fill
+        }
+        
+    }
+}
+

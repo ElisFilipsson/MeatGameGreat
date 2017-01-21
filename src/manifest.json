@@ -1,0 +1,22 @@
+{
+  "name": "MeatGame - An app for shooting game meat",
+  "short_name": "MeatGame",
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [{
+    "src": "assets/icon/icon-meatgame-small-01.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    }, {
+    "src": "assets/icon/mipmap-xxhdpi/icon.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }, {
+    "src": "assets/icon/mipmap-xxxhdpi/icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "background_color": "#008068",
+  "theme_color": "#008068"
+}

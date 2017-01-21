@@ -1,0 +1,6 @@
+{
+  "name": "MeatGame",
+  "app_id": "com.phonegap.meatgame",
+  "v2": true,
+  "typescript": true
+}

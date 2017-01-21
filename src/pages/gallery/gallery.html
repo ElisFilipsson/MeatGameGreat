@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      FIND SOME MEAT
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="gallery">
+
+<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+<ion-row class="container">
+    <ion-col width-33 class="insta-img" *ngFor="let item of items">
+        <img src='{{item.img}}'>
+    </ion-col>
+</ion-row>
+
+</ion-content>
