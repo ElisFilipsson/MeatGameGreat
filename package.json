@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.0.0",
+    "gulp-louis": "^2.4.0",
     "typescript": "2.0.9"
   },
   "cordovaPlugins": [

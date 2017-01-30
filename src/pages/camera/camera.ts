@@ -23,14 +23,14 @@ export class CameraPage {
       this.lon = pos.coords.longitude;
     });
 
-    /*let watch = Geolocation.watchPosition().subscribe(pos => {
+    let watch = Geolocation.watchPosition().subscribe(pos => {
       console.log('lat: ' + pos.coords.latitude + ', lon: ' + pos.coords.longitude);
       this.lat = pos.coords.latitude;
       this.lon = pos.coords.longitude;
-    });*/
+    });
 
     // to stop watching
-    //watch.unsubscribe();
+    watch.unsubscribe();
   }
   // Create a new name for the image
   createFileName() {
